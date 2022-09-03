@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(255, 165, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.searchForm {
+  padding-right: 10px !important;
+}
+
+.searchBtn {
+  height: 38px;
+  margin-top: 2px;
+}

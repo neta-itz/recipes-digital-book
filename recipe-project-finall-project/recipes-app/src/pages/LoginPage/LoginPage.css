@@ -1,0 +1,101 @@
+.loginContainer {
+  background-image: url("../../assets/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 490px;
+}
+.loginFormWrap {
+  width: 80% !important;
+  padding: 20px 0 20px 550px !important;
+  margin-bottom: 100px;
+  height: max-content !important;
+}
+
+.loginHeader {
+  text-align: center;
+  padding-top: 40px !important;
+  color: seashell;
+  margin-left: 8%;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+
+#emailHelp {
+  color: white;
+}
+
+.loginLableAndInput {
+  line-height: 1.2 !important;
+}
+
+.forgotPasswordBtn {
+  color: white !important;
+  background-color: #fe792c !important;
+  margin: 7px 0 !important;
+  padding: 7px;
+  font-family: "Tiro Devanagari Marathi", serif;
+  width: 200px !important;
+  font-weight: 900 !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginBtn {
+  color: white !important;
+  background-color: orange !important;
+  margin: 0 !important;
+  font-family: "Tiro Devanagari Marathi", serif;
+  width: 200px !important;
+  font-weight: 900 !important;
+}
+
+@media (max-width: 992px) {
+  .loginContainer {
+    background-size: cover !important;
+    padding-bottom: 100px !important;
+    height: 850px !important;
+    height: fit-content;
+  }
+
+  .loginFormWrap {
+    padding-left: 50% !important;
+    width: 70% !important;
+    margin-top: 45px;
+  }
+
+  #emailHelp {
+    display: none;
+  }
+
+  .loginHeader {
+    padding-top: 50px !important;
+  }
+
+  .loginLableAndInput {
+    line-height: 2 !important;
+    width: 300px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .loginContainer {
+    background-size: cover !important;
+    padding-bottom: 860px !important;
+  }
+
+  .loginHeader {
+    padding-top: 80px !important;
+    padding-left: 100px;
+    font-size: 5rem;
+  }
+
+  .loginFormWrap {
+    margin-top: 70px;
+  }
+
+  .loginLableAndInput {
+    width: 400px !important;
+  }
+}

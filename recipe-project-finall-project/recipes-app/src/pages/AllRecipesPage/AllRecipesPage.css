@@ -1,0 +1,38 @@
+.foodPanelBgc {
+  height: fit-content !important;
+  height: 800px;
+}
+.allFoodPanelHeader {
+  text-align: center;
+  font-family: "Tiro Devanagari Marathi", serif;
+  color: #990000;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2.5;
+  padding-top: 20px;
+}
+
+.searchForm {
+  width: 30%;
+}
+
+@media (max-width: 1200px) {
+  .foodPanelBgc {
+    height: fit-content !important;
+  }
+
+  .searchForm {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .allFoodPanelHeader {
+    margin-left: 10%;
+  }
+}
+
+@media (min-width: 1200) and (max-width: 1400) {
+  .foodPanelBgc {
+    height: 900 !important;
+  }
+}

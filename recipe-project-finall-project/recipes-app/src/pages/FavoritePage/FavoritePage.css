@@ -1,0 +1,26 @@
+.favoriteContainer {
+  background-image: url("../../assets/background2.jpg");
+  background-size: 100%;
+  height: max-content !important;
+  min-height: 500px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+
+.favoriteHeader {
+  text-align: center;
+  font-family: "Tiro Devanagari Marathi", serif;
+  color: #990000;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2.5;
+  padding-top: 20px;
+}
+
+@media (max-width: 1400px) {
+  .favoriteContainer {
+    height: fit-content !important;
+    min-height: 810px !important;
+  }
+}

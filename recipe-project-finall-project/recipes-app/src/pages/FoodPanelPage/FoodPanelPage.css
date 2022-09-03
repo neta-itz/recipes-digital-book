@@ -1,0 +1,82 @@
+.foodPanelBgc {
+  background-image: url("../../assets/background2.jpg");
+  background-size: 100%;
+  height: fit-content !important;
+  height: 800px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.card-row {
+  justify-content: space-between;
+  width: 75%;
+}
+
+.foodPanelHeaderAndBtn {
+  padding: 30px;
+  position: relative;
+}
+
+.foodPanelHeader {
+  font-family: "Tiro Devanagari Marathi", serif;
+  color: #990000;
+  margin-left: 250px;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2.5;
+  display: inline;
+}
+
+.addBtn {
+  font-family: "Tiro Devanagari Marathi", serif;
+  font-size: 1.25rem !important;
+  margin-left: 30px;
+  line-height: 1.2 !important;
+  background-color: #990000 !important;
+  color: white !important;
+  top: 100px !important;
+}
+
+.loader {
+  font-family: "Tiro Devanagari Marathi", serif;
+  font-size: 70px;
+  font-weight: 900;
+  padding: 100px;
+  margin-left: 50%;
+}
+
+.loaderIcon {
+  margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+  .foodPanelHeader {
+    margin-left: 20% !important;
+  }
+  .addBtn {
+    left: 30% !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .card-row {
+    padding: 50px 0 200px 0 !important;
+  }
+  .foodPanelBgc {
+    height: fit-content !important;
+  }
+  .foodPanelHeader {
+    position: relative;
+    text-align: center !important;
+    font-size: 3rem;
+    margin-left: 35%;
+  }
+  .addBtn {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+  }
+  .loader {
+    padding: 130px;
+  }
+}

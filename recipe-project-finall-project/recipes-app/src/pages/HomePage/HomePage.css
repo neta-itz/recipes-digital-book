@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  background-color: #f4eea9;
+}
+
+.homeTitle {
+  padding-top: 120px;
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+.homeHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2.5;
+  color: #990000;
+}
+
+.homeSmallHeader {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  letter-spacing: 2.5;
+}
+
+.homeImg {
+  height: 470px;
+}
+
+@media (max-width: 992px) {
+  .home-container {
+    height: 850px;
+  }
+  .rowHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 0;
+  }
+  .homeSmallHeader {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .homeTitle {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .home-container {
+    height: 850px;
+    height: fit-content;
+  }
+
+  .rowHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+  }
+
+  .homeTitle {
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .homeSmallHeader {
+    text-align: center !important;
+    padding-left: 18%;
+  }
+
+  .homeHeader {
+    margin: 15px;
+  }
+
+  .homeImg {
+    width: 80% !important;
+  }
+}

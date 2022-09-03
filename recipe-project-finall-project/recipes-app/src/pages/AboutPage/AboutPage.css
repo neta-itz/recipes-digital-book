@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.about-container {
+  background-image: url("../../assets/dessert.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.aboutTitle,
+.aboutTitle2 {
+  padding-top: 30px;
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+.aboutHeader {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 2.5;
+  color: orange;
+}
+
+.aboutHeader2 {
+  padding-left: 30px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  letter-spacing: 2.5;
+  line-height: 1.3;
+  color: orange;
+}
+
+.aboutSmallHeader {
+  margin-top: 15px !important;
+  padding-left: 30px;
+  font-size: 1.9rem;
+  letter-spacing: 2.5;
+  line-height: 1.3;
+  color: white;
+  text-shadow: 0.8px 0.8px white;
+}
+
+.aboutSmallHeader2 {
+  margin-bottom: 30px;
+  padding-left: 30px;
+  font-size: 1.9rem;
+  letter-spacing: 2.5;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 0.8px 0.8px white;
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    background-size: cover !important;
+    padding-bottom: 160px !important;
+  }
+
+  .aboutHeader,
+  .aboutHeader2 {
+    padding-top: 50px;
+    color: rgb(248, 219, 181);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .about-container {
+    background-size: cover !important;
+    padding-bottom: 100px !important;
+  }
+
+  .aboutHeader,
+  .aboutHeader2 {
+    padding-top: 80px;
+    color: rgb(248, 219, 181);
+    font-size: 3rem;
+    font-weight: 800 !important;
+    text-align: center;
+  }
+}

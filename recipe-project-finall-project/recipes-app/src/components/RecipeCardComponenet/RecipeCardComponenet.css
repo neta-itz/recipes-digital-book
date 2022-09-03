@@ -1,0 +1,83 @@
+.card {
+  margin: 20px 0 !important;
+  height: max-content;
+  width: 65% !important;
+  text-align: center;
+}
+
+.card-deck {
+  font-family: "Tiro Devanagari Marathi", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 250px;
+  border-radius: 9px !important;
+}
+
+.oneCard {
+  border: 1px solid black !important;
+  border-radius: 10px !important;
+  box-shadow: 3px 3px 3px rgb(87, 87, 87);
+  position: absolute;
+  left: 40%;
+  width: 500px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  padding-top: 2%;
+}
+
+.btns {
+  font-size: 1.25rem !important;
+  margin: 10px;
+  line-height: 1.2 !important;
+}
+
+#editBtn {
+  background-color: #ff5f00;
+
+  color: white;
+}
+
+#deleteBtn {
+  background-color: orange;
+  color: white;
+}
+
+#favoriteBtn {
+  background-color: #990000;
+}
+
+.heartIcon {
+  font-size: large;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80% !important;
+  }
+  .oneCard {
+    width: 70% !important;
+    position: relative !important;
+    left: 40% !important;
+    padding-bottom: 20px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .oneCard {
+    width: 70% !important;
+    position: relative !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 150px !important;
+  }
+}

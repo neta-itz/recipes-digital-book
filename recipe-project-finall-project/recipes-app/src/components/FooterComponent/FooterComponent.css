@@ -1,0 +1,16 @@
+.copyright {
+  background-color: rgb(255, 165, 0);
+}
+
+p {
+  font-size: 14px;
+}
+
+@media (max-width: 998px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}

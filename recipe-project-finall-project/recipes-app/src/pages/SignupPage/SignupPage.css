@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@1&display=swap");
+
+#bgcSignUp {
+  background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.formWrap {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  padding: 20px;
+}
+
+.signupHeader {
+  text-align: center;
+  padding-top: 30px;
+  color: seashell;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Tiro Devanagari Marathi", serif;
+}
+
+.sighnupBtnDiv {
+  margin-top: 10px !important;
+}
+
+#signupBtn {
+  color: orange !important;
+  background-color: white !important;
+  margin: 7px !important;
+  font-family: "Tiro Devanagari Marathi", serif;
+  width: 200px !important;
+  font-weight: 900 !important;
+}
+
+.form-label {
+  color: white;
+  font-family: "Tiro Devanagari Marathi", serif;
+  font-size: 22px;
+  font-weight: bolde;
+}
+
+input {
+  border: 1px solid rgb(85, 45, 85) !important;
+}
+
+.signupLableAndInput {
+  line-height: 1.2 !important;
+}
+
+.errMsg {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  #bgcSignUp {
+    background-size: cover;
+    padding-bottom: 400px;
+  }
+
+  .formWrap {
+    width: 60%;
+    position: relative;
+    left: 25%;
+    top: 60px;
+    padding: 20px;
+  }
+
+  .signupHeader {
+    padding-top: 60px;
+  }
+
+  .signupLableAndInput {
+    line-height: 2 !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  #bgcSignUp {
+    background-size: cover;
+    padding-bottom: 300px;
+  }
+
+  .formWrap {
+    width: 60%;
+    position: relative;
+    left: 25%;
+    top: 80px;
+    padding: 20px;
+  }
+
+  .signupHeader {
+    padding-top: 80px;
+  }
+}

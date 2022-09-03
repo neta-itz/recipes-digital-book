@@ -1,0 +1,53 @@
+.newFoodRecipeBgc {
+  height: 750px;
+  font-family: "Tiro Devanagari Marathi", serif;
+  background-image: url("../../assets/background2.jpg");
+  background-size: 100%;
+  height: max-content !important;
+}
+.newRecipeHeader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 2.5;
+  color: #990000;
+  padding-top: 20px;
+}
+
+.newRecipeForm {
+  height: max-content;
+  padding-bottom: 15px;
+}
+.form-row {
+  width: 500px;
+  height: fit-content;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.form-control {
+  margin-top: 4px;
+}
+
+.foodRecipeLabel {
+  font-size: 1.2rem;
+}
+
+.newRecipeBtn {
+  color: white !important;
+  background-color: orange !important;
+  margin: 0 !important;
+  font-family: "Tiro Devanagari Marathi", serif;
+  width: 200px !important;
+  font-weight: 800 !important;
+}
+
+@media (max-width: 1400px) {
+  .newFoodRecipeBgc {
+    height: 800px !important;
+    height: max-content !important;
+    padding-bottom: 120px;
+  }
+}

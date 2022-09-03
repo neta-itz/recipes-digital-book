@@ -1,0 +1,9 @@
+.container {
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.spinner-border {
+  margin-top: 300px !important;
+}
